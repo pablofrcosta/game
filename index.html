@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/100/100468.png">
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="borderInputs">
+      <header class="titulo">Jogo da velha</header>
+      <div class="users">
+        <div class="user1">
+          <label for="user1">X</label>
+          <input type="text" name="user1" id="user1" placeholder="Player 1">
+        </div>
+        <div class="user2">
+          <label for="user2">O</label>
+          <input type="text" name="user2" id="user2" placeholder="Player 2">
+        </div>
+        <button id="start">Começar</button>
+      </div>
+      <img src="./—Pngtree—orange old lady clip art_5977983.png" alt="" class="velha">
+    </div>
+    <div class="section">
+      <header id="titulo">
+        <h2>Vez do: <span id="turnPlayer"></span></h2>
+      </header>
+      <main id="gameBoard">
+        <span data-region="0.0"></span>
+        <span data-region="0.1"></span>
+        <span data-region="0.2"></span>
+        <span data-region="1.0"></span>
+        <span data-region="1.1"></span>
+        <span data-region="1.2"></span>
+        <span data-region="2.0"></span>
+        <span data-region="2.1"></span>
+        <span data-region="2.2"></span>
+      </main>
+    </div>
+    <div class="borderScore">
+      <h1>Score</h1>
+      <div class="scores">
+        <div class="score">
+          <label for="score1">X=</label>
+          <input type="text" name="score1" id="score1" disabled>
+        </div>
+        <div class="score">
+          <label for="score2">O=</label>
+          <input type="text" name="score2" id="score2" disabled>
+        </div>
+
+      </div>
+      <div class="imagem">
+        <img src="./pngwing.com.png" alt="" class="jogoVelha">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
